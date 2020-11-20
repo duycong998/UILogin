@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tabLayoutFont"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/chewy</item>
+        <item name="android:textSize">70sp</item>
+    </style>
+
+    <style name="nametitle"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="nametitlee"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style
+        name="name_title"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/chewy</item>
+        <item name="android:textSize">15sp</item>
+        </style>
+</resources>
