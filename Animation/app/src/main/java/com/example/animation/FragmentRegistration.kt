@@ -2,6 +2,7 @@ package com.example.animation
 
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,6 +36,7 @@ class FragmentRegistration  : Fragment(R.layout.fragment_registration) {
                 .addSharedElement(buttonGoRegristration, buttonGoRegristration.transitionName)
                 .addSharedElement(buttonLoginSinUp, buttonLoginSinUp.transitionName)
             fragmentTransaction.commit()
+            Log.d("aaa", "bbbb")
         }
     }
 }
