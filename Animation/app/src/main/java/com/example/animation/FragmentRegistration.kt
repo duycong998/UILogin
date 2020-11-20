@@ -36,7 +36,6 @@ class FragmentRegistration  : Fragment(R.layout.fragment_registration) {
                 .addSharedElement(buttonGoRegristration, buttonGoRegristration.transitionName)
                 .addSharedElement(buttonLoginSinUp, buttonLoginSinUp.transitionName)
             fragmentTransaction.commit()
-            Log.d("aaa", "bbbb")
         }
     }
 }
